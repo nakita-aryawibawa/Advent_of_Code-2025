@@ -1,5 +1,5 @@
 # Read the puzzle input and split it by the '\n'
-paperWarehouseTemp = open('Day 4- Printing Department/paperWarehouse.txt').read().split('\n')
+paperWarehouseTemp = open('Day 4 - Printing Department/paperWarehouse.txt').read().split('\n')
 
 # Turn every row into a list and split the string into individual character
 paperWarehouse = [list(x) for x in paperWarehouseTemp]
